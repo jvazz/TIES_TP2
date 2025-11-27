@@ -1,0 +1,62 @@
+
+.epigraph {
+    background-color: #eba628;
+    width: 100%;
+    padding-top: 250px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+main .container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+.main-text {
+    width: 100%;
+    color: white;
+}
+
+.main-text h1 {
+    font-size: 4rem;
+    margin: 0 0 20px 0;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.main-text .rectangle {
+    background-color: white;
+    width: 100px;
+    height: 6px;
+}
+
+@media (max-width: 1000px) {
+    .epigraph {
+        padding-top: 20%;
+        padding-bottom: 50px;
+    }
+
+    .main-text h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .epigraph {
+        padding-top: 20%;
+        padding-bottom: 40px;
+    }
+
+    .main-text h1 {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+    }
+
+    .main-text .rectangle {
+        width: 70px;
+        height: 4px;
+    }
+}

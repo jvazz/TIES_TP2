@@ -1,0 +1,22 @@
+/*
+@font-face{
+    font-family: ;
+    src: url();
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap'); /*font-family: "League Spartan", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); /*font-family: "Anton", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap'); /*fonte da logo*/ /*font-family: "Racing Sans One", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap'); /*fonte do h1 da tela inicial e dos títulos das seções*/ /*font-family: "Staatliches", sans-serif;*/
+
+body{
+    font-family: "League Spartan", sans-serif;
+}
+
+header{
+    font-family: "Racing Sans One", sans-serif;
+}
+
+.services h2{
+    font-family: "Staatliches", sans-serif;
+}
