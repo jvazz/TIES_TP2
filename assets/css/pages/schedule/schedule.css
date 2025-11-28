@@ -1,0 +1,6 @@
+@import './partials/description.css';
+@import './partials/epigraph.css';
+@import './partials/general.css';
+
+@import '../../global/global.css';
+@import '../../global/menu-header.css';
